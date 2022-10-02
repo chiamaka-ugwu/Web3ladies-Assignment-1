@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/_StudentDatabase.sol": "StudentDat"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/_StudentDatabase.sol": {
+			"keccak256": "0x2094a3aa76b1e9148d3db6ef5cc60d205a1083575300eb7ad6edeeaf4e15a48b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e0b0e742215fe654a827a9ccbbc708076f149bc0ffce8fdfe2c0af89f20d4b96",
+				"dweb:/ipfs/QmTwfZDx3DSNtAodNfx3f1n4xmU4jZxP16Bk1BTfuaCVLT"
+			]
+		}
+	},
+	"version": 1
+}
